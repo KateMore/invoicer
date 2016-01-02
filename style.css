@@ -1,0 +1,450 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing:0;
+}
+
+html {
+	font-size: 16px;
+}
+.header-bg {
+	height: 100vh;
+	width: 100%;
+	background: url("Images/Darken.jpg");
+}
+
+/*header block style*/
+header {
+	margin-top: 0;
+	margin-left: 8vw;
+	margin-right: 4vw;
+	padding-top: 7vh;
+	font-family: sans-serif;
+	color: #f7f1f1;
+	font-size: 0.7rem;
+	text-transform: uppercase;
+	font-weight: bold;
+	
+}
+header img {
+	float: left;
+	position: absolute;
+	top:40px;
+	
+}
+
+.transparent-button {
+	box-sizing:border-box;
+    display: inline-block;
+	height: 5vh;
+	width: 8vw;
+	text-align: center;
+	padding-top: 10px;
+	text-decoration: none;
+	border: 1px solid #f7f1f1;
+	border-radius: 4px;
+
+
+} 
+
+header nav  {
+	float: right;
+	font-weight: 120;
+
+}
+header:after {
+	content: "";
+	display: block;
+	clear: both;
+
+}
+header nav li {
+	box-sizing:border-box;
+	list-style: none;
+	display: inline-block;
+	padding: 0 10px;
+	height: 5vh;
+	padding-top: 10px;
+	vertical-align: middle;
+
+}
+
+header nav ul {
+	float:left;
+	margin-left:10px; 
+	
+}
+
+
+
+.header-controls {
+	margin-top: 32vh;
+	display: block;
+	padding-top: 15px;
+	text-align: center;
+	color: #f7f1f1;
+	font-family: sans-serif;
+	font-size: 1.6rem;
+	font-weight: 100;
+
+}
+
+ .header-controls h1  {
+	font-weight: 100;
+}
+
+
+.header-controls p {
+	padding-top: 15px;
+	padding-bottom: 30px;
+	font-weight: 100;
+}
+
+.header-controls img{
+	position: absolute;
+	bottom: 20px;
+}
+
+.header-controls input {
+	width: 20vw;
+	height: 7vh;
+	border: none;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	padding-right: 0;
+	margin-right: 0;
+
+}
+
+.header-controls button {
+	width: 8vw;
+	height: 7vh;
+	border: none;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	background: #6782c2;
+	color: #f7f1f1;
+	text-transform: uppercase;
+	text-align: center;
+
+}
+
+
+
+header p {
+	display: block;
+	display: table-cell;
+	font-family: sans-serif;
+	color: #f7f1f1;
+	font-size: 1.5rem;
+	font-weight: 100;
+	text-transform: capitalize;
+	vertical-align: middle;
+	
+	position: absolute;
+	top:50px;
+	left: 170px;
+}
+
+
+/*our features+phones-block style*/
+
+.our_features, .android {
+	overflow: hidden;
+	clear: both;
+	margin: 0;
+	width: 100%;
+	background: #FFFFFF;
+	font-family: sans-serif;
+	font-weight: 100;
+}
+.our_features h1 {
+	padding-top: 50px;
+	padding-bottom: 50px;
+	padding-left: 50px;
+	text-align: center;
+	font-family: sans-serif;
+	font-size: 2rem;
+	font-weight: 100;
+}
+
+.our_features p 
+{
+	text-align: justify;
+	line-height: 2;
+	
+}
+
+.our_features .left_text, .android .left_text {
+	float: left;
+	margin-left: 8vw;
+	width: 30%;
+	height: 50%;
+	
+	
+}
+.android .left_text {
+	width: 32%;
+}
+
+.our_features .left_text h2 {
+	display: inline-block;
+	padding-left: 10px;
+	padding-bottom: 20px;
+	font-size: 1.5rem;
+	font-weight: 100;
+	
+}
+
+.android .left_text h2 {
+	display: inline-block;
+	padding-left: 30px;
+	padding-bottom: 20px;
+	padding-top: 35vh;
+	padding-right: 20px;
+	font-size: 1.5rem;
+	font-weight: 100;
+
+
+}
+
+.android p{
+	text-align: justify;
+	line-height: 1.5;
+
+}
+.table1 {
+	float: right;
+	margin-right: 50px;
+	margin-bottom: 80px;
+
+}
+.our_features .left_text img {
+	position: relative;
+	top:18px;
+	display: inline-block;
+	padding-top: 35vh;
+}
+.android .left_text img {
+	position: relative;
+	top:41vh;
+	display: inline-block;
+	padding-top: 10px;
+}
+
+
+/*Integrated_block_style*/
+.integrated {
+	overflow: hidden;
+	width: 100%;
+	background: url("Images/back2.jpg");
+	padding-bottom: 0;
+	margin: 0;
+	font-family: sans-serif;
+	font-weight: 100;}
+
+
+.integrated p {
+	text-align: justify;
+	line-height: 2;
+}
+
+.right_text {
+	float: right;
+	display: table-cell;
+	margin-right: 80px;
+	width: 30%;
+	height: 50%;
+	line-height: 2;
+	color: #FFFFFF;
+}
+
+
+
+.right_text h2 {
+	display: inline-block;
+	padding-left: 10px;
+	padding-bottom: 20px;
+	padding-top: 15vh;
+	font-size: 1.5rem;
+	font-weight: 100;
+
+}
+.table2 {
+	float: left;
+	position: relative;
+	left: 90px;
+	bottom: 0px;
+	
+}
+.integrated .right_text img 
+{
+	position: relative;
+	top:25px;
+	display: inline-block;
+	padding-top: 20px;
+}
+.phones {
+	padding-left: 5vw;
+	padding-top: 10vh;
+}
+
+/*Reviews styles*/
+
+.reviews h2 {
+	padding-top: 50px;
+	padding-bottom: 50px;
+	padding-left: 50px;
+	text-align: center;
+	font-family: sans-serif;
+	font-size: 1.5rem;
+	font-weight: 100;
+
+
+}
+
+.reviews img {
+
+	padding-left: 45vw;
+	padding-top: 2vh;
+	padding-bottom: 2vh;
+}
+
+
+
+.reviews p {
+	text-transform: uppercase;
+	display: block;
+	width: 30vw;
+	font-family: sans-serif;
+	font-size: 0.7rem;
+	line-height: 3;
+	font-weight: bold;
+	margin-left: 35vw;
+	margin-bottom: 10vh;
+
+}
+.reviews h3 {
+	display: block;
+	width: 30vw;
+	font-family: sans-serif;
+	font-size: 1.4rem;
+	line-height: 2;
+	font-weight: normal;
+	margin-left: 35vw;
+
+}
+
+
+
+
+
+
+
+/*Sign up styles*/
+
+.sign_up {
+	background: url("Images/invoicer_landing-footer.jpg");
+	background-size:contain;
+	width: 80vw;
+	margin-left: 10vw;
+}
+
+.sign_up h1 {
+	padding-top: 50px;
+	padding-bottom: 20px;
+	
+	text-align: center;
+	font-family: sans-serif;
+	font-size: 1.5rem;
+	font-weight: 100;
+	color: #FFF;
+
+
+}
+
+.sign_up input {
+	width: 20vw;
+	height: 7vh;
+	border: none;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	padding-right: 0;
+	margin-right: 0;
+	margin-left: 25vw;
+
+}
+
+.sign_up button {
+	width: 8vw;
+	height: 7vh;
+	border: none;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	background: #3ecacb;
+	color: #f7f1f1;
+	text-transform: uppercase;
+	text-align: center;
+
+
+}
+.sign_up .span {
+	padding-bottom: 30px;
+}
+
+
+/*Footer styles*/
+
+footer {
+	margin-left: 10vw;
+	margin-bottom: 3vh;
+	text-align: justify;
+	padding-bottom: 3vh;
+	height: 8vh:;
+
+}
+
+
+
+footer img {
+	display: inline-block;
+	padding-left: 5vw;
+	line-height: 30px;
+	margin-top: 3vh;
+	position: relative;
+	top: 15px;
+
+}
+
+
+footer p{
+	display: inline-block;
+	font-family: sans-serif;
+	font-size: 0.7rem;
+	font-weight: normal;
+	margin-left: 15vw;
+	text-align: center;
+	padding-right: 7vw;
+	
+
+}
+footer h3{
+	display: inline-block;
+	font-family: sans-serif;
+	font-size: 1.3rem;
+	font-weight: normal;
+	text-align: center;
+
+
+
+
+}
+
+
+#reg {
+	display: none;
+	position: fixed;
+	top:40px;
+	right: 10px;
+
+}

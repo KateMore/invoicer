@@ -1,0 +1,106 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+*,
+*:before,
+*:after {box-sizing: border-box;}
+
+
+
+.reg_form {
+	max-width: 22vw;
+	margin: auto;
+	margin-top: 5vh;
+	font-family: sans-serif;
+	color: #6782C9;
+	font-size: 0.7rem;
+	font-weight: 100;
+	border: 1px solid #757B91;
+	border-radius: 5px;
+	padding-left: 5px;
+	background: #fff;
+
+
+}
+
+.form-header {
+	color: #757B91;
+	text-align: center;
+	font-size: 0.7rem;
+	font-weight: 100;
+	padding: 5px;
+}
+
+form {
+	padding: 10px;
+	cursor: pointer;
+}
+input , select {
+	margin: 10px 10px;
+	width: 93%;
+}
+
+ .pass1, .pass2, .name1, .name2 {
+ 	display: inline-block;
+	margin: 5px  0px;
+	/*padding: 5px;*/
+	width: 49%;
+}
+input[type="radio"]{
+	display: inline-block;
+	width: 5%;
+	margin: 10px  0px;
+	padding: 5px;
+	color: #7EB4EA;
+	text-align: left;
+	cursor: pointer;
+}
+
+label[for="male"]
+{
+	padding-left: 3%;
+	margin-right: 35%;
+}
+select {
+	color: #7EB4EA;
+	cursor: pointer;
+	width: 95%;
+}
+textarea {
+	margin: 10px 10px;
+	color: #7EB4EA;
+	width: 95%;
+}
+input[type="checkbox"] {
+	margin-left: 0;
+	padding: 0;
+	line-height: 20px;
+	text-align: center;
+	display: inline-block;
+	width: 10%;
+}
+p {
+	display: inline-block;
+	line-height: 20px;
+	text-align: center;
+}
+input[type="submit"] {
+	height: 35px;
+	background:#3ECACB;
+	color: #fff;  
+	font-size: 0.8rem;
+	font-weight: bold;
+} 
+
+input[type="reset"] {
+	height: 35px;
+	background:#DDDDDD;  
+	font-size: 0.8rem;
+	font-weight: bold;
+} 
+
+
+
+
